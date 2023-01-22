@@ -17,6 +17,6 @@ def insertion_sort (Numbers):
 
 Number_List = [71, 88, 76, 82, 52, 48, 10, 16, 30, 86]
 insertion_sort(Number_List)
-print("\nThe result of the Bubble sort is:", Number_List)
+print("\nThe result of the Insertion sort is:", Number_List)
 
 
