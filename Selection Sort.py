@@ -1,6 +1,6 @@
 print(f'{"*** Programmed by ***": ^40}')
 print(f'{"*** Nicolas Fabillar ***": ^40}')
-
+print()
 def sort_number (Numbers):
     for i in range(9):
         min_pos = i
