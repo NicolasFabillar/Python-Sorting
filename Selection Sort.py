@@ -10,12 +10,13 @@ def sort_number (Numbers):
             if Numbers[min_pos] > Numbers[j]:
                 min_pos = j
 
-        #Perform the swapping
+        #Perform the swapping.
         Numbers[min_pos], Numbers[i] = Numbers[i], Numbers[min_pos]
 
-        print("After",i + 1, "iteration, the sequence is:",Numbers)
+        #Prints the number list after the swap.
+        print("After",i + 1, "iteration(s), the sequence is:",Numbers)
 
 Number_List = [71, 88, 76, 82, 52, 48, 10, 16, 30, 86]
 sort_number(Number_List)
 
-print("The result of the Selection sort is:", Number_List)
+print("\nThe result of the Selection sort is:", Number_List)
