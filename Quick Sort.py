@@ -20,5 +20,4 @@ def quick_sort (Numbers):
         return Numbers
 
 Number_List = [71, 88, 76, 82, 52, 48, 10, 16, 30, 86]
-Number_List = quick_sort(Number_List)
-print("The result of the Quick sort is:", Number_List)
+print("The result of the Quick sort is:", quick_sort(Number_List))
